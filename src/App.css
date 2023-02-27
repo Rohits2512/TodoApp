@@ -1,0 +1,73 @@
+body{
+  background-color: aquamarine;
+}
+.app{
+  text-align: center;
+}
+.container{
+  background-color: rgb(125, 10, 10);
+  justify-content: center;
+  width: 35%;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 3%;
+  padding: 2px;
+  position: relative;
+}
+.header{
+  width: 100%;
+  padding: 5px 35% ;
+  font-size: 40px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="text"], select{
+  width: 75%;
+  margin: 30px 0px 10px 30px;
+  padding: 10px 20px ;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: green;
+  cursor: pointer;
+  margin: 8px 0;
+}
+button:hover{
+  background-color: rgb(38, 142, 38);
+}
+.list-heading{
+  color: antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  text-align: left;
+  background-color: black;
+  width: auto;
+  padding: 5px;
+  margin-right: 290px;
+  margin-left: 30px;
+}
+.data-wrapper{
+ width: 80%;
+ display: flex;
+}
+.listData{
+  background-color: beige;
+  color: black;
+  margin: 5px 10px 15px 30px;
+  padding: 4px 2px 6px 10px;
+   font-size: 20px;
+  width: 55%;
+  border-radius: 10px;
+}
+
+.remove-all{
+ background-color: gray;  
+ margin-left: 30%;
+}
