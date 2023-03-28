@@ -14,7 +14,7 @@ const Todo = () => {
     });
   };
 
-  const handleRemove = (index, e) => {
+  const handleRemove = (index) => {
     let updatedValue = listData.filter((ele, i) => {
       return i !== index;
     });
